@@ -1,0 +1,206 @@
+
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	height: 100%;
+	background:#22C3AA;
+	text-align: center;
+	font-family: 'open sans';
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	color:white;
+}
+
+.center{
+	/*border: white 1px dotted;*/
+	width: 1000px;
+	height: 500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -250px;
+	margin-left: -500px;
+
+}
+h1{
+	font-size: 50px;
+}
+.middle{
+	font-size: 40px;
+	margin: 5px;
+}
+.small{
+	font-size: 30px;
+	margin: 5px;
+}
+.deepColor{
+	color: #aee2d9;
+}
+
+/*section 1*/
+.page1 .center img{
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+}
+
+.page1 .center h2{
+	font-size: 25px;
+}
+.page1 .center span{
+	font-size: 20px;
+	position: relative;
+}
+.page1 .center .contact .contact-list{
+	width: 200px;
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	margin-left: -100px;
+	display: none;
+	
+}
+.contact {
+	color: #0E7A6A;
+}
+.contact-list ul{
+	list-style: none;
+	font-size: 20px;
+	padding-top: 10px;
+}
+.contact ul li{
+	text-align: left;
+	width: 150px;
+	padding-left: 25px;
+	padding-bottom: 2px;
+	margin: 0 auto;
+	color: white;
+}
+.contact ul .email{
+	background: url("../img/email.png") no-repeat 0 0;
+	-webkit-background-size: 20px 20px;
+	background-size: 20px 20px;
+}
+.contact ul .github{
+	background: url("../img/github.png") no-repeat 0 0;
+	-webkit-background-size: 20px 20px;
+	background-size: 20px 20px;
+}
+.contact ul .wechat{
+	background: url("../img/wechat.png") no-repeat 0 0;
+	-webkit-background-size: 20px 20px;
+	background-size: 20px 20px;
+}
+.contact ul .blog{
+	background: url("../img/blog.png") no-repeat 0 0;
+	-webkit-background-size: 20px 20px;
+	background-size: 20px 20px;
+}
+.contact ul li a{
+	text-decoration: none;
+	color: white;
+}
+.contact:hover{
+	cursor: pointer;
+	color: #FFEC8B;
+
+}
+.page1 .center .contact:hover .contact-list{
+	display: block;
+}
+
+/*section 2*/
+.page2 .projects{
+	margin: 5px auto;
+	width: 550px;
+	
+}
+.page2 .projects:after{
+	display: block;
+	clear: both;
+	font-size: 0;
+	visibility: hidden;
+	line-height: 0;
+	content: "";
+}
+.page2 .center  .projects ul{
+	list-style: none;
+}
+.page2 .center ul li{
+	width: 250px;
+	padding: 5px;
+	margin: 3px;
+	float: left;
+	font-size: 18px;
+}
+.page2 .center li a{
+	display: inline-block;
+	width: 240px;
+	height: 200px;
+	background: url("../img/icon.ico") no-repeat 0 25px;
+	-webkit-background-size: 230px 150px;
+	background-size: 230px 150px;
+	
+}
+.page2 .center li a:link,.page2 .center li a:visited{
+	color: black;
+	text-decoration: none;
+	border:1px dotted #22C3AA
+}
+.page2 .center li a:hover, .page2 .center li a:active{
+	color: orange;
+	border:1px dotted #096254;
+}
+
+/*section 3*/
+
+.page3 .center .css{
+	margin-top: 30px;
+}
+.page3 .center .box{
+	font-size: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	background-color: #0E7A6A;
+	padding: 5px;
+	margin: 5px 5px;
+}
+.page3 .center .familiar{
+	background-color: #096254;
+}
+
+/*section 4*/
+.performance{
+	position: relative;
+	margin:5px;
+}
+.performance .performance-list{
+	font-size: 15px;
+	color: white;
+	width: 300px;
+	height: 150px;
+	position: absolute;
+	margin-top: -50px;
+	margin-left: -100px;
+	padding-top: 20px;
+	padding-left: 50px;
+	top: 70px;
+	left: 0px;
+	display: none;
+}
+.performance-list ul{
+	list-style: none;
+}
+.performance-list li{
+	text-align: left;
+}
+.performance:hover .performance-list {
+	display: block;
+}
+
+/*section6*/
+.page6 .center a{
+	text-decoration: none;
+}

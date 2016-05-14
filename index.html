@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>李云涛-个人简历</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="img/icon.ico" type="image/x-ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script type="text/javascript" src="support/jquery-2.2.2.js"></script>
+        <script type="text/javascript" src="support/onePage/jquery.onepage-scroll.js"></script>
+        <link rel="stylesheet" type="text/css" href="support/onePage/onepage-scroll.css">
+        <script type="text/javascript" src="js/global.js"></script>
+        <link rel="stylesheet" type="text/css" href="style/global.css">
+    </head>
+    <body >
+        <div class="main">
+            <section class="page1">
+            <div class="center ">
+                <img src="img/icon.ico">
+                <h1>李云涛</h1>
+                <h2 title="CSU">中南大学</h2>
+                <h3>学习源于兴趣，工作源于热爱，生活源于想象</h3>
+                <span class="contact hidden-title">联系方式
+                <div class="contact-list hidden-list">
+                    <ul>
+                        <li class="email">wingtaol@gmail.com</li>
+                        <li class="github"><a href="https://github.com/wingtao">https://github.com/wingtao</a></li>
+                        <li class="wechat">LiyunLYT</li>
+                        <li class="blog"><a href="http://wingtao.com">wingtao.com</a></li>
+                    </ul>
+                </div></span>
+            </div>                
+            </section>
+
+            <section class="page2">
+            <div class="center ">
+                <h1>项目经验</h1>
+                <div class="projects">
+                <ul>
+                <li><a href="webAPP/cubeImage">立体相册</a></li>
+                <li><a href="websiteMimic/index.html">网页仿制</a></li>
+                <li><a href="easyGo/index.html">易行在线</a></li>
+                <li><a href="https://github.com/wingtao/musicCommunity">musicCommunity(源码)</a></li>
+                </ul>
+                </div>
+            </div>
+            </section>
+
+            <section class="page3">
+            <div class="center ">
+                <h1>主要技能</title>
+                <div class="css">
+                    <div class="box familiar">CSS</div>
+                    <div class="box familiar">CSS3</div>
+                    <div class="box">SCSS</div>
+                </div>
+                <div class="js">
+                    <div class="box familiar">JavaScript</div>
+                    <div class="box familiar">Jquery</div>
+                    <div class="box">BootStrap</div>
+                </div>
+                <div class="html">
+                    <div class="box familiar">HTML</div>
+                    <div class="box">HTML5</div>
+                </div>
+                <div class="else">
+                    <div class="box familiar">PHP</div>
+                    <div class="box">PostgreSql</div>
+                    <div class="box">Linux</div>
+                    <div class="box">Node.js</div>
+                    <div class="box familiar">Git</div>
+                </div>
+            </div>                
+            </section>
+
+            <section class="page4">
+            <div class="center ">
+                <h1>教育背景</h1>
+                <p class="middle">中南大学 本科</p>
+                <small>2013-2017</small>
+                <p class="small deepcolor">地信院 地理信息科学专业</p>
+                <span class="performance small deepColor">在校表现
+                <div class="performance-list ">
+                <ul>
+                <li>校优秀学生 × 2   (2013-2015学年度)</li>
+                <li>校常规二等奖学金 × 2 (2013-2015学年度)</li>
+                <li>中矿地质二等奖学金  (2013-2014学年度)</li>
+                <li>铜冠奖学金  (2014-2015学年度）</li>
+                <li></li>
+                </ul>
+                </div>
+                </span>
+            </div>                
+            </section>
+
+            <section class="page5">
+                <div class="center">
+                    <h1>实习经历</h1>
+                    <p class="middle">中南大学网络德育信息中心(云麓谷)</p>
+                    <p class="small">2016年3月-至今</p>
+                    <p class="small deepColor">前端开发系统化培训;解决系统遗留的 bug 及浏览器兼容问题（IE7+）;论坛的前端特效的实现及后期维护</p>
+                </div>
+            </section>
+
+            <section class="page6">
+                <div class="center">
+                    <h1>了解更多</h1>
+                    <div>
+                    <span class="middle "><a href="http://115.28.156.108" class="deepColor">个人主页</a> </span>
+                   
+                    </div>
+                </div>
+            </section>
+        </div>
+            
+        <script type="text/javascript">
+            $(".main").onepage_scroll({
+               sectionContainer: "section",     // 指定单页面的每个页面外部容器
+               easing: "ease",                  // 页面切换的缓动效果，可设置成 "ease", "linear", "ease-in","ease-out", "ease-in-out"
+               animationTime: 1000,             // 每个页面切换的时长
+               pagination: true,                // 是否显示右边的导航圆形按钮
+               updateURL: true,                // 切换页面的时候是否需要更新页面URL.
+               beforeMove: function(index) {},  // 页面切换之前的回调，index表示页面的索引
+               afterMove: function(index) {},   // 页面切换之后的回调，index表示页面的索引
+               loop: true,                     // 当前页面为最后一个的时候，继续向下切换是否回到第一个页面
+               keyboard: true,                  // 是否可以使用方向键来操纵页面切换
+               responsiveFallback: false,        // 是否当浏览器宽度为某一个指定值的时候，去除该插件效果，如果想实现这种效果，那么可以指定一个宽度值
+               direction: "vertical"            // 页面切换方向，可选值为 "vertical"水平 和"horizontal"垂直. 默认 "vertical"  
+             });
+        </script>
+    </body>
+</html>
